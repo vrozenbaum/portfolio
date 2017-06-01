@@ -67,8 +67,8 @@
                     <div class="item"><img alt="" src="img/slider/indeed4.png" class="img-responsive"></div>
                   </div>      </script>              
                   <!-- /#main-slider-->
-                  <p>Data science has been receiving quite a bit of media attention for being one of the best fields to get into. However, because of the diversity of roles in the field, there can be quite a bit of variety in job titles, responsibilities, and qualifications. For people looking to get hired as data scientists, there are many factors to consider when job-hunting, but salary is definitely a big one. For this analysis, I built a webscraper to collect data science job listings from Indeed.com across 16 U.S. cities. Then, I used a Random Forest Classifier to determine whether location was a good predictor of a salary being above or below the median. Additionally, I ran a Tfidf Vectorizer on the job titles and used Logistic Regression to predict whether the features were good predictors of a high/low salary.</p>
-                  <ol>
+                  <p>Data science has been receiving quite a bit of media attention for being one of the best fields to get into. However, because of the diversity of roles in the field, there can be quite a bit of variety in job titles, responsibilities, and qualifications. For people looking to get hired as data scientists, there are many factors to consider when job-hunting, but salary is definitely a big one. For this analysis, I built a webscraper to collect data science job listings from Indeed.com across 16 U.S. cities. After collecting over 10,500 listings, the database was then reduced to only include positions that listed annual salaries. The final dataframe of 493 observations was then assessed to determine a median salary. Several classification models were employed to determine what key factors (including location, key words, and job title) affected a job being above or below the median salary.</p>
+                  <!-- <ol>
                     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
                   </ol>
@@ -76,13 +76,11 @@
                     <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
                   </blockquote>
                   <h2>Header Level 2</h2>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                  <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                    <li>Aliquam tincidunt mauris eu risus.</li>
-                  </ul>
-                  <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>-->
+                  <p></p>
+                  
+                  <p>When determinging whether a job would be above or below the median, a significant factor included whether or not the job title included the terms "Machine Learning" or "Engineer". Further analysis showed that the city where the job is located, as well as the seniority of the role, weighed heavily on whether or not a position paid above median salary. 
+The model developed can be used to test potential job postings to predict with 85 percent accuracy, whether the salary associated with the position should be above or below the mediann</p>
                   Visit the <a href="https://github.com/vrozenbaum/Data-Science-and-Visualization-Portfolio/blob/master/Webscraping%20Indeed.com%20and%20Predicting%20Salaries.ipynb">code!</a> 
                   <br>See the <a href="https://public.tableau.com/views/USDataScienceSalaryAnalysis/IndeedSalaryAnalysis?:embed=y&:display_count=yes">visualizations!</a> 
 
